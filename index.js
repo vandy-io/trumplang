@@ -1,7 +1,7 @@
 // index.js
 
 const Trumplang = {
-    BelieveMe: (output) => console.log(output),
+    BelieveMe: (output) => console.log(`${output} believe me`),
 
     Tremendous: (condition, tremendousBlock, disasterBlock) => {
         if (condition) {
@@ -35,7 +35,7 @@ const Trumplang = {
 
     Tweet: (message) => console.log(`[TWEET]: ${message}`),
 
-    AlternativeFacts: (data) => JSON.stringify(data) + " (but better!)",
+    AlternativeFacts: (data) => `${JSON.stringify(data)} (but better!)`,
 
     InstallDependency: (dependency) => console.log(`Installing ${dependency} (only the greatest)`),
 };
